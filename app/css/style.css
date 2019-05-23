@@ -1,0 +1,50 @@
+.div1 {
+    text-align: justify;
+    color: saddlebrown;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.div2 {
+    background-color: aquamarine;
+    margin: 15px;
+}
+
+.nb {
+    float: left;
+    height: 50vh;
+    width: 50%;
+    border: 1px solid black;
+}
+
+p {
+    border-left: 3px solid #333333;
+    border-right: 3px solid #333333;
+}
+
+.ground {
+    color: lightgray;
+    font-size: 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.poster {
+    color: brown;
+    position: absolute;
+    font-size: 1rem;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.multicolumn {
+    column-count: 2;
+}
+
+.multicolumn::first-letter {
+    font-size: 3em;
+    color: red;
+    float: left;
+    margin: 0 4px 2px 0;
+}
