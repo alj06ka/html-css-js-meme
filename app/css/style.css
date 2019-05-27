@@ -17,7 +17,7 @@
     border: 1px solid black;
 }
 
-p {
+p .line-border {
     border-left: 3px solid #333333;
     border-right: 3px solid #333333;
 }
@@ -39,12 +39,46 @@ p {
 }
 
 .multicolumn {
-    column-count: 2;
+    display: inline-block;
 }
 
-.multicolumn::first-letter {
+.multicolumn p {
+    width: 48%;
+    float: left;
+}
+
+.multicolumn p::first-letter {
     font-size: 3em;
     color: red;
     float: left;
     margin: 0 4px 2px 0;
+}
+
+.scrollable p {
+    overflow: scroll;
+}
+
+.overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .overflow {
+        width: 100%;
+    }
+
+    .multicolumn p {
+        width: 100%;
+        float: none;
+    }
+
+    .multicolumn p::first-letter {
+        font-size: 1em;
+        color: black;
+        float: left;
+        margin: 0;
+    }
 }
