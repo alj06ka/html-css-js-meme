@@ -82,3 +82,15 @@ p .line-border {
         margin: 0;
     }
 }
+
+.italic {
+    font-style: italic;
+}
+
+.toUpperCase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
