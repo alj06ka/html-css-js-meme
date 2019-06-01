@@ -1,6 +1,6 @@
 (() => {
-    const NUM_ROWS = 20;
-    const NUM_COLS = NUM_ROWS;
+    const NUM_ROWS = 30;
+    const NUM_COLS = 20;
     const PERCENT_SPOTS = 82;
     const STATE_UNSELECTED = 0;
     const STATE_SELECTED = 1;
