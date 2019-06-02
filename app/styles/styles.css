@@ -87,6 +87,15 @@ table {
     border-collapse: collapse;
 }
 
+.required-text {
+    color: red;
+}
+
+input[required] {
+    padding-bottom: 3px;
+    border-bottom: solid 3px #f36c63;
+}
+
 @media screen and (max-width: 500px){
     aside {
         display: none;
